@@ -26,3 +26,8 @@ OPERATOR_KEY = 302...
 ```
 
 And finally create index.js in the root directory.
+
+To run, type in your cli:
+```
+node index.js 
+```
