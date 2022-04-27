@@ -5,3 +5,24 @@ Hedero Hackathon Quest #2
 
 Includes index.js to send message to the above testnet topic. To get your environment set-up, follow the steps at https://docs.hedera.com/guides/getting-started/environment-set-up.
 
+Steps to get started in your terminal:
+
+```
+npm init
+```
+
+```
+npm install --save @hashgraph/sdk
+```
+
+```
+npm install dotenv
+```
+
+Create a .env file in your root directory in the format: 
+```
+OPERATOR_ID = 0.0.3...
+OPERATOR_KEY = 302...
+```
+
+And finally create index.js in the root directory.
