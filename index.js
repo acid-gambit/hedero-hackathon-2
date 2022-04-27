@@ -27,7 +27,7 @@ async function main() {
     // Send one message
     let sendResponse = await new TopicMessageSubmitTransaction({
         topicId: topicId,
-        message: "My team name is Acid Gambit",
+        message: "", // Message to send
     }).execute(client);
     const getReceipt = await sendResponse.getReceipt(client);
 
